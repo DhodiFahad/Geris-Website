@@ -12,6 +12,9 @@ body{
     justify-content: space-between;
     background-color: aqua;
     font-family: 'Outfit', sans-serif;
+    background-image: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 nav{
@@ -92,5 +95,37 @@ nav .request a{
     }
     .footer{
         font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    nav .logo{
+        font-size: 12px;
+    }
+    nav .socials{
+        font-size: 14px;
+    }
+
+    .main h1{
+        font-size: 24px;
+    }
+    .main p{
+        font-size: 12px;
+    }
+    nav .request a{
+        display: none;
+    }
+    .main .request-container span{
+        font-size: 12px;
+        margin-right: 10px;
+        border-bottom: 1px solid #fff;
+    }
+    .main .request-container a{
+        font-size: 12px;
+        padding: 10px;
+
+    }
+    .footer{
+        font-size: 10px;
     }
   }

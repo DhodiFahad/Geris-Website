@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #1F541E;
     font-family: 'Outfit', sans-serif;
     background-image: url(./images/bg.png);
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ nav .socials a{
 }
 nav .request a{
     padding: 15px;
-    background: green;
+    background: #1F541E;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
@@ -71,7 +71,7 @@ nav .request a{
 }
 .main .request-container a{
     padding: 15px;
-    background: green;
+    background: #1F541E;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;

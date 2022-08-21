@@ -24,6 +24,10 @@ nav{
     align-items: center;
     padding: 25px 0px;
 }
+nav .logo-container i{
+    color: #1F541E;
+    margin-right:10px ;
+}
 nav .logo{
     color: #1F541E;
     font-size: 20px;

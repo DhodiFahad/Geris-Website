@@ -1,0 +1,37 @@
+
+.solution{
+    padding: 60px 0px;
+   
+}
+.solution-description{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.solution-description h1{
+    width: 50%;
+    margin: 10px 0px;
+}
+
+.solution-description p{
+    margin-bottom: 30px;
+  
+}
+.solution-img{
+    width: 50%;
+    margin: 30px auto;
+}
+.solution-img img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .solution-description h1{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+  
+}

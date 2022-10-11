@@ -1,0 +1,21 @@
+.story{
+    padding: 60px 0px;
+}
+.story h1{
+    margin-bottom: 25px;
+}
+.story p{
+    padding: 0px 30px;
+    line-height: 2.2rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+    .story p{
+        padding: 0px 30px;
+        line-height: 1.4rem;
+    }
+}

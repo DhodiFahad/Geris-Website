@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("hero.css");
+@import url("nav.css");
+@import url("sponsor.css");
+@import url("solution.css");
+@import url("vision.css");
+@import url("story.css");
+@import url("team.css");
+@import url("subscribe.css");
+@import url("footer.css");
+
+:root {
+    --primary: #1F541E;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.4rem;
+}
+.logo{
+    width: 150px;
+}
+.body-wrapper{
+    padding: 0px 5%;
+    width: 100%;
+    margin: 0;
+}
+.colored-wrapper{
+    padding: 0px 5%;
+    width: 100%;
+    margin: 0;
+    background:#2463231c;
+}
+.wrapper{
+    max-width: 1088px;
+    margin-left: auto;
+    margin-right:auto;
+    /* position: relative; */
+}
+
+@media only screen and (max-width: 800px) {
+    .logo{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo{
+        width: 100px;
+    }
+    h1{
+        font-size: 2.0rem;
+    }
+    p{
+        font-size: 1.0rem;
+    }
+
+}
+
+

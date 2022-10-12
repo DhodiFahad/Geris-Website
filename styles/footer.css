@@ -52,16 +52,23 @@
 }
 
 @media only screen and (max-width: 800px) {
-   
+    .footer{
+        font-size: 1rem;
+    }
+    .footer a{
+        color: var(--primary);
+    }
 }
 
 @media only screen and (max-width: 450px) {
+ 
     .footer-container{
         flex-direction: column;
         /* justify-content: center; */
         /* align-items: center; */
         /* text-align: center; */
     }
+    
     .footer-about p{
         width: 100%;
     }
